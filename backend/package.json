@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Memory-App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KholiylUlloh/Full-Stack-Store-App.git"
+  },
+  "keywords": [
+    "Mern-Stack"
+  ],
+  "author": "HalilUllah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KholiylUlloh/Full-Stack-Store-App/issues"
+  },
+  "homepage": "https://github.com/KholiylUlloh/Full-Stack-Store-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
